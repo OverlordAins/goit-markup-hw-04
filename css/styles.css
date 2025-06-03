@@ -284,26 +284,41 @@ button {
 }
 
 .name-role {
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.social-link-team {
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+}
+
+.social-svg-team {
+    fill: #fff;
 }
 
 .card-subtitle {
     text-align: center;
-    margin-bottom: 8px;
 }
 
 .card-text {
     text-align: center;
-    margin-bottom: 8px;
 }
 
 .contact-icon-list {
     display: flex;
     gap: 24px;
+    justify-content: center;
 }
 
 /* .contact-list-item {
-
+    
 } */
 
 /* PORTFOLIO */  /*?   DONE   ?*/
@@ -401,9 +416,9 @@ button {
     gap: 16px;
 }
 
-.social-item {
-    flex-basis: calc((100% - 48px) / 4);
-}
+/* .social-item {
+    
+} */
 
 .social-link {
     width: 40px;
